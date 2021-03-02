@@ -176,7 +176,7 @@ header {
 }
 
 .ico--webpack {
-  background-image: url("/icons/webpack.svg");
+  background-image: url("./icons/webpack.svg");
 }
 
 .experience {
