@@ -73,11 +73,6 @@ header {
   }
 }
 
-.main {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .text {
   font-size: 1rem;
   padding-right: 5rem;
@@ -132,37 +127,37 @@ header {
   background-repeat: no-repeat;
 
   &--edu {
-    background-image: url('/icons/social_icon.svg');
+    background-image: url('./icons/social_icon.svg');
   }
 
   &--discord {
     width: 30px;
     height: 30px;
-    background: url('/icons/discord2.svg');
+    background: url('./icons/discord2.svg');
   }
 
   &--telegram {
-    background-image: url('/icons/telegram.svg');
+    background-image: url('./icons/telegram.svg');
   }
 
   &--vk {
-    background-image: url('/icons/vk.svg');
+    background-image: url('./icons/vk.svg');
   }
 
   &--html {
-    background-image: url('/icons/html.svg');
+    background-image: url('./icons/html.svg');
   }
 
   &--css {
-    background-image: url('/icons/css.svg');
+    background-image: url('./icons/css.svg');
   }
 
   &--js {
-    background-image: url('/icons/js.svg');
+    background-image: url('./icons/js.svg');
   }
 
   &--webpack {
-    background-image: url('/icons/webpack.svg');
+    background-image: url('./icons/webpack.svg');
   }
 }
 
