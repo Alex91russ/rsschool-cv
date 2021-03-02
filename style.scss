@@ -1,0 +1,171 @@
+body {
+  margin: auto;
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 1000px;
+}
+
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #353334;
+ }
+
+.header__title {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.header__text {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.profile {
+  display: flex;
+  padding: 2rem;
+  background: #fbd8b8;
+}
+
+.logo {
+  display: flex;
+  max-width: 200px;
+  
+}
+
+.logo__image {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.profile-wrapper {
+  width: 71.5%;
+  margin-left: auto;
+}
+
+.title {
+  width: 150px;
+  margin: 0;
+  padding-left: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  background: #353334;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 0.14rem;
+  border-radius: 30px;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text {
+  font-size: 1rem;
+  padding-right: 5rem;
+  line-height: 1.4rem;
+}
+
+.wrapper-container {
+  display: flex;
+}
+
+.left-column {
+  width: 250px;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  background: #EAEBE6;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.right-column {
+  width: 750px;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  background: rgb(224, 223, 223);
+}
+
+.container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.ico {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+
+  &--edu {
+    background-image: url('/icons/social_icon.svg');
+  }
+
+  &--discord {
+    width: 30px;
+    height: 30px;
+    background: url('/icons/discord2.svg');
+  }
+
+  &--telegram {
+    background-image: url('/icons/telegram.svg');
+  }
+
+  &--vk {
+    background-image: url('/icons/vk.svg');
+  }
+
+  &--html {
+    background-image: url('/icons/html.svg');
+  }
+
+  &--css {
+    background-image: url('/icons/css.svg');
+  }
+
+  &--js {
+    background-image: url('/icons/js.svg');
+  }
+
+  &--webpack {
+    background-image: url('/icons/webpack.svg');
+  }
+}
+
+.experience {
+  margin-top: 72px;
+}
