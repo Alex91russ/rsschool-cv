@@ -76,14 +76,6 @@ header {
   opacity: 0.8;
 }
 
-.main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .text {
   font-size: 1rem;
   padding-right: 5rem;
@@ -154,37 +146,37 @@ header {
 }
 
 .ico--edu {
-  background-image: url("/icons/social_icon.svg");
+  background-image: url("./icons/social_icon.svg");
 }
 
 .ico--discord {
   width: 30px;
   height: 30px;
-  background: url("/icons/discord2.svg");
+  background: url("./icons/discord2.svg");
 }
 
 .ico--telegram {
-  background-image: url("/icons/telegram.svg");
+  background-image: url("./icons/telegram.svg");
 }
 
 .ico--vk {
-  background-image: url("/icons/vk.svg");
+  background-image: url("./icons/vk.svg");
 }
 
 .ico--html {
-  background-image: url("/icons/html.svg");
+  background-image: url("./icons/html.svg");
 }
 
 .ico--css {
-  background-image: url("/icons/css.svg");
+  background-image: url("./icons/css.svg");
 }
 
 .ico--js {
-  background-image: url("/icons/js.svg");
+  background-image: url("./icons/js.svg");
 }
 
 .ico--webpack {
-  background-image: url("/icons/webpack.svg");
+  background-image: url("./icons/webpack.svg");
 }
 
 .experience {
