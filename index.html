@@ -41,9 +41,10 @@
     </div>
     <div class="wrapper wrapper-container">
       <section class="left-column">
+        <h2 class="visually-hidden">left-column</h2>
         <article>
+          <h2 class="title">Contacts</h2>
           <nav class="navigation">
-            <h2 class="title">Contacts</h2>
             <ul class="contact-list">
               <li class="contact-item"><span class="ico ico--discord"></span>Aleksandr K</li>
               <li class="contact-item"><span class="ico ico--telegram"></span>alex91russ</li>
@@ -64,12 +65,25 @@
           <h2 class="title">Languages</h2>
           <ul class="contact-list">
             <li class="contact-item">Russian</li>
-            <li class="contact-item">English</li>
+            <li class="contact-item">English A2</li>
           </ul>
         </article>
       </section>
       <section class="right-column">
+        <h2 class="visually-hidden">right-column</h2>
         <article>
+          <h2 class="title">Code</h2>
+          <div class="container">
+              <code class="text code">
+                function avg (array) { <br>
+                if (array === undefined || array.length === 0) return 0; <br>
+                const sum = array.reduce((acc, value) => acc + value, 0); <br>
+                return sum / array.length; <br>
+              }
+            </code>  
+          </div>
+        </article>
+        <article class="education">
           <h2 class="title">Education</h2>
           <div class="container">
             <span class="ico ico--edu"></span>
@@ -86,7 +100,11 @@
     </div>
   </main>
   <footer>
-    <div class="wrapper"></div>
+    <div class="wrapper wrapper-footer">
+      <a class="logo-github" href="https://github.com/Alex91russ"></a>
+      <time class="footer-text">2021</time>
+      <a class="logo-ico" href="https://rs.school/js/"></a>
+    </div>
   </footer>
 </body>
 </html>
