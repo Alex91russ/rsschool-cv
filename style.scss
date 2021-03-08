@@ -1,7 +1,20 @@
 body {
   margin: auto;
+  height: 100vh;
   font-size: 10px;
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
 }
 
 .wrapper {
@@ -34,7 +47,7 @@ header {
 
 .profile {
   display: flex;
-  padding: 2rem;
+  padding: 1.8rem;
   background: #fbd8b8;
 }
 
@@ -115,7 +128,6 @@ header {
 
 .container {
   margin-top: 10px;
-  margin-bottom: 10px;
   display: flex;
   align-items: center;
 }
@@ -161,6 +173,58 @@ header {
   }
 }
 
+.code {
+  width: 100%;
+}
+
+.education {
+  margin-top: 17px;
+}
+
 .experience {
-  margin-top: 72px;
+  margin-top: 108px;
+}
+
+.wrapper-footer {
+  padding-top: 0.35rem;
+  padding-bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #353334;
+}
+
+.logo-ico {
+  width: 200px;
+  height: 60px;
+  background: url('./icons/rs_school_js.svg') no-repeat center;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.test {
+  display: flex;
+  max-width: 100px;
+  height: 70px;
+}
+
+.logo-github {
+  display: flex;
+  height: 70px;
+  width: 70px;
+  background: url('./icons/github-logo.svg') no-repeat center;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.footer-text {
+  color: white;
+  font-size: 4rem;
+  line-height: 4rem;
+  margin: 0;
+  padding: 0;
 }
